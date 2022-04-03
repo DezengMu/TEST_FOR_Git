@@ -116,7 +116,13 @@
 
 ![1638607541023](C:\Users\dezengmu\AppData\Roaming\Typora\typora-user-images\1638607541023.png)
 
+## 7 其他常用命令
 
+* git diff  和 git diff HEAD -- \<file\>
+
+  * 参考链接：[git diff与git diff HEAD -- file](https://blog.csdn.net/u013485584/article/details/53303858)
+
+    ![1648971179002](C:\Users\dezengmu\AppData\Roaming\Typora\typora-user-images\1648971179002.png)
 
 
 
