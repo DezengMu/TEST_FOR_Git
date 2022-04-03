@@ -31,6 +31,13 @@
 * git reset 和 git  revert 的参数并不一样，如果想回到上一个提交记录，需要使用以下其中一个命令：
   * `git reset HEAD~1`
   * `git revert HEAD`
+* 如果只是想撤销工作区的文件修改，可以使用如下命令：
+  * git checkout --  \<file>
+* 如果该文件已经“add"到了暂存区，需要用如下2条命令：
+  * git reset  HEAD  \<file>
+  * git checkout -- \<file>
+* 如果已经“commit " 了，请用如下命令：
+  * git reset --hard  \<commit_id>
 
 ## 3. 复制及修改分支顺序
 
