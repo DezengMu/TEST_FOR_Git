@@ -131,5 +131,6 @@
 
     ![1648971179002](C:\Users\dezengmu\AppData\Roaming\Typora\typora-user-images\1648971179002.png)
 
-
+* 当你在本地修改了文件，然后“add "到了暂存区，但还没有commit ,此时，你又对本地的同一个文件做了修改，然后使用”git restore --staged \<file\> "的命令，会直接丢弃暂存区的修改，而保留最后一次本地的修改结果，换句话说：**本地的修改结果不会被暂存区的修改所覆盖**
+* 
 
